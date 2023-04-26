@@ -7,5 +7,13 @@ DB_USER=
 DB_PASSWORD=
 DB_NAME=
 
-o specify paths in terraform.tfvars file
+Specify paths in terraform.tfvars file
 
+In docker-compose file it's necesarry to specify those parameters:
+
+MYSQL_ROOT_PASSWORD: 
+MYSQL_DATABASE: 
+MYSQL_USER: 
+MYSQL_PASSWORD: 
+      
+In Ansible playbook User -> files add public ssh key
